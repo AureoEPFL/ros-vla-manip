@@ -1,0 +1,118 @@
+{
+  "per_task": [
+    {
+      "task_group": "pick-place-v3",
+      "task_id": 0,
+      "metrics": {
+        "sum_rewards": [
+          7.065465165890274,
+          41.10865196817966,
+          5.425931056653429,
+          5.18258144630782,
+          5.310880166735994,
+          4.841131885524975,
+          53.96779152467827,
+          149.90232399638057,
+          5.420015865880949,
+          1647.5267164445384
+        ],
+        "max_rewards": [
+          0.12037551048654847,
+          1.8953998760513167,
+          0.04110468569983133,
+          0.13123886138671262,
+          0.10579561583902382,
+          0.045192515918693846,
+          2.1435768517447045,
+          6.298424909460665,
+          0.04622627639341428,
+          6.401748180389404
+        ],
+        "successes": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          false,
+          true
+        ],
+        "video_paths": [
+          "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_0.mp4",
+          "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_1.mp4",
+          "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_2.mp4",
+          "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_3.mp4",
+          "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_4.mp4",
+          "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_5.mp4",
+          "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_6.mp4",
+          "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_7.mp4",
+          "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_8.mp4",
+          "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_9.mp4"
+        ],
+        "predicted_video_paths": []
+      },
+      "n_episodes": 10,
+      "n_success": 2,
+      "pc_success": 20.0,
+      "pc_success_ci95": [
+        5.668215145437524,
+        50.98375284633582
+      ]
+    }
+  ],
+  "per_group": {
+    "pick-place-v3": {
+      "avg_sum_reward": 192.57514895207703,
+      "avg_max_reward": 1.7229083283370314,
+      "pc_success": 20.0,
+      "n_episodes": 10,
+      "n_success": 2,
+      "pc_success_ci95": [
+        5.668215145437524,
+        50.98375284633582
+      ],
+      "video_paths": [
+        "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_0.mp4",
+        "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_1.mp4",
+        "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_2.mp4",
+        "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_3.mp4",
+        "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_4.mp4",
+        "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_5.mp4",
+        "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_6.mp4",
+        "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_7.mp4",
+        "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_8.mp4",
+        "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_9.mp4"
+      ],
+      "predicted_video_paths": []
+    }
+  },
+  "overall": {
+    "avg_sum_reward": 192.57514895207703,
+    "avg_max_reward": 1.7229083283370314,
+    "pc_success": 20.0,
+    "n_episodes": 10,
+    "n_success": 2,
+    "pc_success_ci95": [
+      5.668215145437524,
+      50.98375284633582
+    ],
+    "eval_s": 1376.6360597610474,
+    "eval_ep_s": 137.66360607147217,
+    "video_paths": [
+      "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_0.mp4",
+      "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_1.mp4",
+      "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_2.mp4",
+      "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_3.mp4",
+      "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_4.mp4",
+      "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_5.mp4",
+      "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_6.mp4",
+      "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_7.mp4",
+      "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_8.mp4",
+      "outputs/eval/2026-10-25/21-47-03_metaworld_smolvla/videos/pick-place-v3_0/eval_episode_9.mp4"
+    ],
+    "predicted_video_paths": []
+  }
+}

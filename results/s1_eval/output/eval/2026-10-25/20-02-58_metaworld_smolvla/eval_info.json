@@ -1,0 +1,118 @@
+{
+  "per_task": [
+    {
+      "task_group": "button-press-topdown-v3",
+      "task_id": 0,
+      "metrics": {
+        "sum_rewards": [
+          143.79283914324867,
+          132.74589490994745,
+          989.1670469174171,
+          141.6331279820427,
+          134.2783331468512,
+          115.85955111069191,
+          139.99617871169602,
+          824.6178526110166,
+          191.1271898606915,
+          150.0597006776736
+        ],
+        "max_rewards": [
+          4.301738986903878,
+          3.4429257610235413,
+          2.9972053858575,
+          3.377925513348475,
+          3.3105786197396907,
+          3.4411248862816506,
+          3.4587526318587836,
+          3.2975101816712393,
+          7.353630860133983,
+          3.419067897142243
+        ],
+        "successes": [
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true
+        ],
+        "video_paths": [
+          "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_0.mp4",
+          "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_1.mp4",
+          "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_2.mp4",
+          "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_3.mp4",
+          "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_4.mp4",
+          "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_5.mp4",
+          "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_6.mp4",
+          "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_7.mp4",
+          "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_8.mp4",
+          "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_9.mp4"
+        ],
+        "predicted_video_paths": []
+      },
+      "n_episodes": 10,
+      "n_success": 8,
+      "pc_success": 80.0,
+      "pc_success_ci95": [
+        49.01624715366418,
+        94.33178485456247
+      ]
+    }
+  ],
+  "per_group": {
+    "button-press-topdown-v3": {
+      "avg_sum_reward": 296.3277715071277,
+      "avg_max_reward": 3.840046072396098,
+      "pc_success": 80.0,
+      "n_episodes": 10,
+      "n_success": 8,
+      "pc_success_ci95": [
+        49.01624715366418,
+        94.33178485456247
+      ],
+      "video_paths": [
+        "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_0.mp4",
+        "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_1.mp4",
+        "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_2.mp4",
+        "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_3.mp4",
+        "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_4.mp4",
+        "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_5.mp4",
+        "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_6.mp4",
+        "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_7.mp4",
+        "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_8.mp4",
+        "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_9.mp4"
+      ],
+      "predicted_video_paths": []
+    }
+  },
+  "overall": {
+    "avg_sum_reward": 296.3277715071277,
+    "avg_max_reward": 3.840046072396098,
+    "pc_success": 80.0,
+    "n_episodes": 10,
+    "n_success": 8,
+    "pc_success_ci95": [
+      49.01624715366418,
+      94.33178485456247
+    ],
+    "eval_s": 490.50722670555115,
+    "eval_ep_s": 49.05072276592254,
+    "video_paths": [
+      "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_0.mp4",
+      "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_1.mp4",
+      "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_2.mp4",
+      "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_3.mp4",
+      "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_4.mp4",
+      "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_5.mp4",
+      "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_6.mp4",
+      "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_7.mp4",
+      "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_8.mp4",
+      "outputs/eval/2026-10-25/20-02-58_metaworld_smolvla/videos/button-press-topdown-v3_0/eval_episode_9.mp4"
+    ],
+    "predicted_video_paths": []
+  }
+}

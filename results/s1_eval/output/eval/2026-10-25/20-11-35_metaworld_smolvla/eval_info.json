@@ -1,0 +1,118 @@
+{
+  "per_task": [
+    {
+      "task_group": "basketball-v3",
+      "task_id": 0,
+      "metrics": {
+        "sum_rewards": [
+          8.620154595902287,
+          226.6560550751195,
+          6.721053319562183,
+          16.341918008613213,
+          18.32686694367075,
+          18.229402065679324,
+          3.837197863541507,
+          513.5028736696006,
+          5.374841842011853,
+          19.21661013742179
+        ],
+        "max_rewards": [
+          0.08417671921741589,
+          10.0,
+          0.10408913640829844,
+          0.09781297667462825,
+          0.08695874778328999,
+          0.08194723409922668,
+          0.08668782771700052,
+          10.0,
+          0.09735681736591204,
+          0.09079953489147378
+        ],
+        "successes": [
+          false,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false
+        ],
+        "video_paths": [
+          "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_0.mp4",
+          "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_1.mp4",
+          "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_2.mp4",
+          "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_3.mp4",
+          "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_4.mp4",
+          "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_5.mp4",
+          "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_6.mp4",
+          "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_7.mp4",
+          "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_8.mp4",
+          "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_9.mp4"
+        ],
+        "predicted_video_paths": []
+      },
+      "n_episodes": 10,
+      "n_success": 2,
+      "pc_success": 20.0,
+      "pc_success_ci95": [
+        5.668215145437524,
+        50.98375284633582
+      ]
+    }
+  ],
+  "per_group": {
+    "basketball-v3": {
+      "avg_sum_reward": 83.6826973521123,
+      "avg_max_reward": 2.0729828994157247,
+      "pc_success": 20.0,
+      "n_episodes": 10,
+      "n_success": 2,
+      "pc_success_ci95": [
+        5.668215145437524,
+        50.98375284633582
+      ],
+      "video_paths": [
+        "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_0.mp4",
+        "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_1.mp4",
+        "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_2.mp4",
+        "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_3.mp4",
+        "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_4.mp4",
+        "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_5.mp4",
+        "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_6.mp4",
+        "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_7.mp4",
+        "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_8.mp4",
+        "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_9.mp4"
+      ],
+      "predicted_video_paths": []
+    }
+  },
+  "overall": {
+    "avg_sum_reward": 83.6826973521123,
+    "avg_max_reward": 2.0729828994157247,
+    "pc_success": 20.0,
+    "n_episodes": 10,
+    "n_success": 2,
+    "pc_success_ci95": [
+      5.668215145437524,
+      50.98375284633582
+    ],
+    "eval_s": 1308.7620980739594,
+    "eval_ep_s": 130.87620995044708,
+    "video_paths": [
+      "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_0.mp4",
+      "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_1.mp4",
+      "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_2.mp4",
+      "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_3.mp4",
+      "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_4.mp4",
+      "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_5.mp4",
+      "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_6.mp4",
+      "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_7.mp4",
+      "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_8.mp4",
+      "outputs/eval/2026-10-25/20-11-35_metaworld_smolvla/videos/basketball-v3_0/eval_episode_9.mp4"
+    ],
+    "predicted_video_paths": []
+  }
+}

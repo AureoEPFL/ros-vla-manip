@@ -1,0 +1,15 @@
+vla_bridge:
+  ros__parameters:
+    # Your fine-tuned SmolVLA (LoRA) model on the Hugging Face Hub,
+    # e.g. "<your-username>/my-smolvla", or the base "lerobot/smolvla_base".
+    model_id: "lerobot/smolvla_base"
+
+    camera_topic: "/camera/image_raw"
+    joint_state_topic: "/joint_states"
+    instruction_topic: "/vla/instruction"
+    ee_action_topic: "/vla/ee_action"
+    gripper_topic: "/vla/gripper"
+
+    control_hz: 20.0
+    device: "cuda"          # use "cpu" on the sim machine if inference runs locally
+    image_size: 256

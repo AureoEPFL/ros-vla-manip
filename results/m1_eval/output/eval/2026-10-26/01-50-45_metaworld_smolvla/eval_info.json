@@ -1,0 +1,118 @@
+{
+  "per_task": [
+    {
+      "task_group": "coffee-push-v3",
+      "task_id": 0,
+      "metrics": {
+        "sum_rewards": [
+          64.4992489070353,
+          36.92680037675133,
+          18.867284544811803,
+          20.071202819155225,
+          11.985031494595805,
+          42.21480620263686,
+          31.500063128014773,
+          23.770955638044803,
+          20.851154694837092,
+          24.213574207390366
+        ],
+        "max_rewards": [
+          1.8280856609344482,
+          0.14883544643784363,
+          0.1273932839949508,
+          0.11763234922900061,
+          0.10581639141276439,
+          0.11835166137763103,
+          0.10886868823494203,
+          0.11601004533983462,
+          0.14891314813625825,
+          0.18895447254180908
+        ],
+        "successes": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "video_paths": [
+          "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_0.mp4",
+          "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_1.mp4",
+          "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_2.mp4",
+          "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_3.mp4",
+          "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_4.mp4",
+          "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_5.mp4",
+          "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_6.mp4",
+          "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_7.mp4",
+          "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_8.mp4",
+          "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_9.mp4"
+        ],
+        "predicted_video_paths": []
+      },
+      "n_episodes": 10,
+      "n_success": 0,
+      "pc_success": 0.0,
+      "pc_success_ci95": [
+        2.7755575615628914e-15,
+        27.753279986288916
+      ]
+    }
+  ],
+  "per_group": {
+    "coffee-push-v3": {
+      "avg_sum_reward": 29.490012201327335,
+      "avg_max_reward": 0.3008861147639483,
+      "pc_success": 0.0,
+      "n_episodes": 10,
+      "n_success": 0,
+      "pc_success_ci95": [
+        2.7755575615628914e-15,
+        27.753279986288916
+      ],
+      "video_paths": [
+        "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_0.mp4",
+        "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_1.mp4",
+        "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_2.mp4",
+        "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_3.mp4",
+        "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_4.mp4",
+        "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_5.mp4",
+        "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_6.mp4",
+        "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_7.mp4",
+        "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_8.mp4",
+        "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_9.mp4"
+      ],
+      "predicted_video_paths": []
+    }
+  },
+  "overall": {
+    "avg_sum_reward": 29.490012201327335,
+    "avg_max_reward": 0.3008861147639483,
+    "pc_success": 0.0,
+    "n_episodes": 10,
+    "n_success": 0,
+    "pc_success_ci95": [
+      2.7755575615628914e-15,
+      27.753279986288916
+    ],
+    "eval_s": 1399.7768051624298,
+    "eval_ep_s": 139.97768058776856,
+    "video_paths": [
+      "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_0.mp4",
+      "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_1.mp4",
+      "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_2.mp4",
+      "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_3.mp4",
+      "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_4.mp4",
+      "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_5.mp4",
+      "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_6.mp4",
+      "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_7.mp4",
+      "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_8.mp4",
+      "outputs/eval/2026-10-26/01-50-45_metaworld_smolvla/videos/coffee-push-v3_0/eval_episode_9.mp4"
+    ],
+    "predicted_video_paths": []
+  }
+}

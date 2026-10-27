@@ -1,0 +1,32 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# --- Training artifacts & data (large, keep on HF Hub) ---
+data/
+*.parquet
+*.mp4
+*.safetensors
+checkpoints/
+outputs/
+wandb/
+
+# --- ROS 2 build artifacts ---
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# --- Gazebo / sim caches ---
+sim/.gazebo/
+sim/.ignition/
+
+# --- Misc ---
+.DS_Store
+*.log
+.cache/
+hf_home/

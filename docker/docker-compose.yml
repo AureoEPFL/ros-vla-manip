@@ -1,0 +1,16 @@
+services:
+  ros:
+    build: .
+    image: ros-vla-manip:humble
+    container_name: ros-vla-manip
+    # GPU not required — Gazebo renders on CPU.
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+    volumes:
+      - ../ros2_ws:/ros2_ws
+      - ../sim:/sim
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+    network_mode: host
+    stdin_open: true
+    tty: true
